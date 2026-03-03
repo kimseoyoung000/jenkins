@@ -89,7 +89,7 @@ pipeline {
 		stage('Docker Push') {
 		  	steps {
 		    	sh '''
-		      		docker push tjdudgkr0959/spring-jenkins:latest
+		      		docker push sy0410/spring-jenkins:latest
 		    	'''
 		  	}
 		}
